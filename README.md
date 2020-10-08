@@ -1,4 +1,13 @@
 # docker-swift-keystone
+
+Swift and Keystone in Docker container, suitable for docker compose and testing Openstack Swift.
+
+This repo is Bionic-ized and simplified merge of https://github.com/globocom/docker-swift-keystone and https://github.com/MorrisJobke/docker-swift-onlyone
+
+Didn't do any optimizations or upgrades to Python 3 etc. Please don't use in production, this is for testing Swift only!
+
+Original README below:
+
 Docker for Swift and Keystone. (each app on a docker container started by docker-compose)
 
 This project aims to provide a swift docker image with a custom configuration for keystone authorization system.
